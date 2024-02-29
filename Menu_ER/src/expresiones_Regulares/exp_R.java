@@ -95,4 +95,5 @@ public class exp_R {
         String regex = "\\b([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}\\b";
         return validarTextoConRegex(texto, regex);
     }
+    
 }
