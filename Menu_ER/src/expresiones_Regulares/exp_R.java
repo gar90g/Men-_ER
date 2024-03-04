@@ -16,7 +16,7 @@ public class exp_R {
         // Resetear validacion a false para cada nueva ejecución
         validacion = false;
         // Busca todas las coincidencias y actualiza validación
-        if (matcher.find()) {
+        if (matcher.matches()) {
             validacion = true;
         }
         // Actualiza Salida basado en validacion
@@ -37,12 +37,13 @@ public class exp_R {
     }
 
     public String expresion_Regular3(String texto) {
+            //ar90+_124@we.-.gmail
         String regex = "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}\\b";
         return validarTextoConRegex(texto, regex);
     }
 
     public String expresion_Regular4(String texto) {
-        String regex = "\\+52\\d{10,11}";
+        String regex = "\\+52+\\d{10}\\b";
         return validarTextoConRegex(texto, regex);
     }
 
