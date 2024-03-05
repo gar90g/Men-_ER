@@ -72,7 +72,7 @@ public class exp_R {
     }
 
     public String expresion_Regular10(String texto) {
-        String regex = "\\b[a-zA-Z0-9]+\\b";
+        String regex = "\\b^[a-zA-Z0-9]+$\\b";
         return validarTextoConRegex(texto, regex);
     }
 
