@@ -59,62 +59,62 @@ public class GUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 51, 51));
+        jPanel1.setBackground(new java.awt.Color(187, 222, 251));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("MENÚ EXPRESIONES REGULARES");
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("2. El conjunto de todas las cadenas que coinciden con palabras que contengan  solo números enteros positivos de hasta tres dígitos");
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("1. El conjunto de todas las cadenas que coinciden con palabras que contienen  exactamente tres letras");
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("3. El conjunto de todas las cadenas que coinciden con palabras que contengan  solo direcciones de correo electrónico validas.");
 
-        jLabel5.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("4. El conjunto de todas las cadenas que coinciden con palabras que contengan  solo números de teléfono en formato nacional (México) (por ejemplo,  +5231124623676):");
 
-        jLabel6.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("5. El conjunto de todas las cadenas que coinciden con palabras que contengan  solo cadenas con 3 letras minúsculas.");
 
-        jLabel7.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("6. El conjunto de todas las cadenas que coinciden con palabras que comienzan  con una vocal y terminan con una consonante.");
 
-        jLabel8.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("7. El conjunto de todas las cadenas que coinciden con números decimales  (positivos o negativos) con hasta dos decimales.");
 
-        jLabel9.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("8. El conjunto de todas las cadenas que coinciden con URLs que comiencen  con \"http://\" o https://");
 
-        jLabel10.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("9. El conjunto de todas las cadenas que coinciden con fechas en formato  \"dd/mm/aaaa\".");
 
-        jLabel11.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("10.El conjunto de todas las cadenas que coinciden con palabras que contienen  solo letras y números, sin espacios ni caracteres especiales");
 
-        jLabel12.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("11.El conjunto de todas las cadenas que coinciden con palabras que comienzan  con una letra mayúscula seguida de letras minúsculas.");
 
-        jLabel13.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("12.El conjunto de todas las cadenas que coinciden con cadenas que contienen  exactamente cinco caracteres alfanuméricos. ");
 
-        jLabel14.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("13.El conjunto de todas las cadenas que coinciden con palabras que contienen  exactamente cuatro letras y terminan con \"ing\"");
 
-        jLabel15.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("14.El conjunto de todas las cadenas que coinciden con direcciones MAC en  formato \"XX:XX:XX:XX:XX:XX\"");
 
         jLabel16.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("Elige una opción");
 
-        jComboMenu.setBackground(new java.awt.Color(255, 0, 255));
+        jComboMenu.setBackground(new java.awt.Color(224, 224, 224));
         jComboMenu.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        jComboMenu.setForeground(new java.awt.Color(255, 255, 51));
-        jComboMenu.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14" }));
+        jComboMenu.setForeground(new java.awt.Color(0, 0, 0));
+        jComboMenu.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ELIGE", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14" }));
         jComboMenu.setToolTipText("Seleccione una Opcion de las de Arriba pls ☺");
         jComboMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,20 +124,25 @@ public class GUI extends javax.swing.JFrame {
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Diseño sin título.png"))); // NOI18N
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Diseño sin título (1).png"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/eitt.png"))); // NOI18N
 
-        jTexto.setBackground(new java.awt.Color(255, 0, 255));
+        jTexto.setBackground(new java.awt.Color(224, 224, 224));
         jTexto.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jTexto.setForeground(new java.awt.Color(255, 255, 51));
+        jTexto.setForeground(new java.awt.Color(0, 0, 0));
         jTexto.setToolTipText("Introduzca su cadena aqui");
+        jTexto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextoActionPerformed(evt);
+            }
+        });
 
         jLabel19.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
         jLabel19.setText("Introduzca su cadena");
 
-        jButtonValidar.setBackground(new java.awt.Color(255, 0, 255));
+        jButtonValidar.setBackground(new java.awt.Color(100, 181, 246));
         jButtonValidar.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        jButtonValidar.setForeground(new java.awt.Color(255, 255, 51));
+        jButtonValidar.setForeground(new java.awt.Color(0, 0, 0));
         jButtonValidar.setText("VALIDAR");
         jButtonValidar.setToolTipText("Valide su cadena");
         jButtonValidar.addActionListener(new java.awt.event.ActionListener() {
@@ -147,7 +152,7 @@ public class GUI extends javax.swing.JFrame {
         });
 
         jLabeLVALIDACION.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
-        jLabeLVALIDACION.setForeground(new java.awt.Color(255, 255, 51));
+        jLabeLVALIDACION.setForeground(new java.awt.Color(0, 0, 0));
         jLabeLVALIDACION.setText("ES VALIDO????");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -322,6 +327,10 @@ public class GUI extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_jButtonValidarActionPerformed
+
+    private void jTextoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextoActionPerformed
 
     /**
      * @param args the command line arguments
