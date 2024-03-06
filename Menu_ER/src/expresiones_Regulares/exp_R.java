@@ -32,7 +32,7 @@ public class exp_R {
 
     public String expresion_Regular2(String texto) {
         // Expresión regular para encontrar números enteros positivos de hasta tres dígitos
-        String regex = "\\b\\d{1,3}\\b";
+        String regex = "\\b[1-9]\\d{0,2}\\b";
         return validarTextoConRegex(texto, regex);
     }
 
